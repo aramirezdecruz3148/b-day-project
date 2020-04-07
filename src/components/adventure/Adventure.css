@@ -1,0 +1,53 @@
+
+/* Need To:  
+  -Have buttons fade up with a transition?
+  -Space buttons apart from each other
+  -Decide what to do with the background
+  -Need padding and margin around everything
+*/
+.pageWrapper {
+}
+
+.videoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: space-between;
+  margin-top: 3rem;
+}
+
+$thetransition: all .5s cubic-bezier(1,.25,0,.75) 0s;
+
+.button {
+  border: none;
+  font-color: white;
+  font-size: 1.5rem;
+  font-family: 'Cinzel', serif;
+  position: relative;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #C0C0C0;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: $thetransition;
+    transition: $thetransition;
+    }
+    &:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    }
+}
+

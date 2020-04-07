@@ -1,10 +1,11 @@
 import React from 'react';
-import Beginning from './landing/Beginning';
+import Adventure from './adventure/Adventure';
+import styles from './adventure/Adventure.css';
 
 export default function App() {
   return (
-    <>
-      <Beginning />
-    </>
+    <div className={styles.pageWrapper}>
+      <Adventure />
+    </div>
   );
 }

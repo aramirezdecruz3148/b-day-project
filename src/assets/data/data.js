@@ -1,39 +1,39 @@
 const data = new Map([
   ['start', {
-    src: 'src/assets/number2.mp4',
+    src: 'src/assets/videos/number2.mp4',
   }],
   ['beginning', {
-    src: 'src/assets/testing.mp4',
-    option1Text: 'this is middleA text',
-    option2Text: 'this is middleB text',
+    src: 'src/assets/videos/testing.mp4',
+    option1Text: 'YES',
+    option2Text: 'NO',
     option1Value: 'middleA',
     option2Value: 'middleB'
   }],
   ['middleA', {
-    src: 'src/assets/number2.mp4',
-    option1Text: 'this is endingA text',
-    option2Text: 'this is endingB text',
+    src: 'src/assets/videos/number2.mp4',
+    option1Text: 'OKAY',
+    option2Text: 'NOPE',
     option1Value: 'endingA',
     option2Value: 'endingB'
   }],
   ['middleB', {
-    src: 'src/assets/number2.mp4',
-    option1Text: 'this is endingC text',
-    option2Text: 'this is endingD text',
+    src: 'src/assets/videos/number2.mp4',
+    option1Text: 'ACCEPT',
+    option2Text: 'DECLINE',
     option1Value: 'endingC',
     option2Value: 'endingD'
   }],
   ['endingA', {
-    src: 'src/assets/testing.mp4',
+    src: 'src/assets/videos/testing.mp4',
   }],
   ['endingB', {
-    src: 'src/assets/testing.mp4',
+    src: 'src/assets/videos/testing.mp4',
   }],
   ['endingC', {
-    src: 'src/assets/testing.mp4',
+    src: 'src/assets/videos/testing.mp4',
   }],
   ['endingD', {
-    src: 'src/assets/testing.mp4',
+    src: 'src/assets/videos/testing.mp4',
   }]
 ]);
 

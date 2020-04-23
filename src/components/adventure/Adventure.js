@@ -3,18 +3,6 @@ import ReactPlayer from 'react-player';
 import data from '../../assets/data/data';
 import styles from './Adventure.css';
 
-
-/* NOTE
--Last possible toggle, to have a start/end title above video?  
--Will want to take out 'controls' on video player
-  -Will need to fill in correct data: values, options, videos
-  -Will need to push up
-  -Will need to deploy on netlify
-  -May need to add something extra to config to get assets to show
-  -If above is true reference previous netlify builds
-  -Will want to make a folder for videos and fix all paths
-*/
-
 export default function Adventure() {
   const [start, setStart] = useState(true);
   const [ended, setEnded] = useState(false);

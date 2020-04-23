@@ -1,6 +1,6 @@
 
 body {
-  background-image: url(/src/assets/lego.jpg);
+  background-image: url(./src/assets/lego.jpg);
 }
 
 .videoWrapper {
@@ -22,7 +22,7 @@ $thetransition: all .5s cubic-bezier(1,.25,0,.75) 0s;
 .button {
   margin-top: 1.7rem;
   border: none;
-  background-image: url(/src/assets/lego.jpg);
+  background-image: url(./src/assets/lego.jpg);
   color: white;
   font-size: 1.7rem;
   font-family: 'Montserrat', sans-serif;
